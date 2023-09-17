@@ -6,4 +6,4 @@
 
 <br>
 
-![](Chapter01-01-flowchart.png)
+![](..\images\Chapter01-01-flowchart.png)
