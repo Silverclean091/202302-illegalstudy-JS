@@ -1,15 +1,18 @@
+
+// 브라우저 환경과 Nodejs 환경을 준비하고 아래 코드 돌려보기
+
 var wind = {
     'last-name' : 'park',
     1: 10
 };
 
-// wind.'last-name';
-// wind.last-name;
+// wind.'last-name';        // 이름에 하이픈(-)을 포함하는 경우, 대괄호를 사용해야 함
+// wind.last-name;          // 이름에 하이픈(-)을 포함하는 경우, 따옴표와 대괄호를 사용해야 함
 
-// wind[last-name];
+// wind[last-name];         // 이름에 하이픈(-)을 포함하는 경우, 따옴표를 사용해야 함
 wind['last-name'];
 
-// wind.1;
-// wind.'1';
+// wind.1;                  // 이름이 숫자일 경우, 대괄호를 사용해야 함
+// wind.'1';                // 따옴표를 사용할 경우, 따옴표와 대괄호를 함께 사용해야 함
 wind[1];
 wind['1'];
