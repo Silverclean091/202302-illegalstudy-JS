@@ -2,6 +2,8 @@
 // Lodash 라이브러리를 사용하여 예제 코드 실행해보기
 // Lodash 라이브러리 설치 : npm i lodash 
 
+// 코드에 대한 설명은 Chapter11-06.md에!
+
 const lodash = require("lodash");
 
 const obj = {
