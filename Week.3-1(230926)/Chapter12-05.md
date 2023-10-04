@@ -41,4 +41,4 @@ ReferenceError: a is not defined
 
 <br>
 
-: 이유
+: add2의 new Function을 사용하여 생성된 함수는 외부의 값에 접근할 수 없다. 따라서 `new Function('x', 'y', 'return x + y + a');`의 경우, a의 값에 접근할 수 없으므로 a가 정의되어 있지 않다는 에러 메시지가 출력된다. 

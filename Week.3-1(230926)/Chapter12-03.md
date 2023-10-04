@@ -6,12 +6,14 @@
 
 **예시 코드**
 ```JS
+function (x, y) {
+    return x + y;
+}
 ```
 <br>
 
 **출력 결과 (에러)**
 ```
+SyntaxError: Function statements require a function name
 ```
 <br>
-
-: 이유
