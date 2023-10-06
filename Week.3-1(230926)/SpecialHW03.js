@@ -128,11 +128,12 @@ hamSearch("헴헴헴헴헴헴헴헴햄헴헴헴헴헴헴헴헴헴헴헴헴헴헴
 // 369 함수
 
 function samyukgu(number) {
-    for (let i = 1; i <= number; i++) {
 
-        if ((number === 0) || isNaN(number)) {
-            console.log("잘못된 입력");
-        }
+    if ((number === 0) || isNaN(number)) {
+        console.log("잘못된 입력");
+    }
+
+    for (let i = 1; i <= number; i++) {
 
         if (i >= 10) {
 
