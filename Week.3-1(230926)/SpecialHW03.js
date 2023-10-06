@@ -124,3 +124,36 @@ function hamSearch(hamText) {
 hamSearch("헴헴헴헴헴헴헴헴햄헴헴헴헴헴헴헴헴헴헴헴헴헴헴헴헴헴헴헴헴헴헴헴헴헴헴헴헴헴헴헴헴헴헴헴헴헴헴헴헴")
 
 // =========================================================
+
+// 369 함수
+
+function samyukgu(number) {
+    for (let i = 1; i <= number; i++) {
+
+        if ((number === 0) || isNaN(number)) {
+            console.log("잘못된 입력");
+        }
+
+        if (i >= 10) {
+
+            let temp1 = i % 10;
+            let temp2 = Math.floor(i / 10);
+
+            if (((temp1 % 3 === 0) && (temp1 !== 0)) || (temp2 % 3 === 0))
+                console.log("짝");
+            else
+                console.log(i);
+
+        } else {
+            if (i % 3 === 0) {
+                console.log("짝");
+            } else {
+                console.log(i);
+            }
+        }
+    }
+}
+
+samyukgu(67);
+
+// =========================================================
