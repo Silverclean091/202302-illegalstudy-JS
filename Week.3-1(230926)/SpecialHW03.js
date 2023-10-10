@@ -137,8 +137,8 @@ function samyukgu(number) {
 
         if (i >= 10) {
 
-            let temp1 = i % 10;
-            let temp2 = Math.floor(i / 10);
+            var temp1 = i % 10;
+            var temp2 = Math.floor(i / 10);
 
             if (((temp1 % 3 === 0) && (temp1 !== 0)) || (temp2 % 3 === 0))
                 console.log("짝");
